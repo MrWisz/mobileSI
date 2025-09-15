@@ -14,7 +14,6 @@ export default function LoginScreen() {
 
   const handleLogin = () => {
     setLoading(true);
-    // Simulación de login
     setTimeout(() => {
       setLoading(false);
 //      router.replace('/landing');
